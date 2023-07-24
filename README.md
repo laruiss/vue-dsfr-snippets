@@ -6,7 +6,7 @@ Ensemble de snippets pour [VueDsfr](https://github.com/dnum-mi/vue-dsfr)
 
 Permet de facilement utiliser les composants de VueDsfr dans les SFC Vue :
 
-\!\[DsrfInputGroup\]\(images/dsfr-input-anim.gif\)
+![DsrfInputGroup](images/dsfr-input-anim.gif)
 
 ## Notes de publications
 
