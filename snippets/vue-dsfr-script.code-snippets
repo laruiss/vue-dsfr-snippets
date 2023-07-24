@@ -1,0 +1,39 @@
+{
+  "vd-language-selector": {
+    "prefix": "vd-language-selector",
+    "body": [
+      "const languages = [",
+      "  {",
+      "    codeIso: 'fr',",
+      "    label: 'Français',",
+      "  },",
+      "  {",
+      "    codeIso: '${1}',",
+      "    label: '${2}',",
+      "  },",
+      "],",
+    ],
+    "description": "Create a new array of languages for the `languages` prop of <DsfrLanguageSelector />"
+  },
+  "vd-use-scheme": {
+    "prefix": "vd-use-scheme",
+    "body": [
+      "import { useScheme } from '@gouvminint/vue-dsfr",
+      "",
+      "const { theme, scheme, setScheme } = useScheme()"
+    ],
+  },
+  "vd-minimal-css": {
+    "prefix": "vd-minimal-css",
+    "body": [
+      "import '@gouvfr/dsfr/dist/core/core.main.min.css'",
+      "import '@gouvfr/dsfr/dist/component/component.main.min.css'",
+      "import '@gouvfr/dsfr/dist/utility/utility.main.min.css'",
+      "import '@gouvfr/dsfr/dist/utility/icons/icons.main.min.css'",
+      "import '@gouvminint/vue-dsfr/styles'",
+      "",
+      "import '@gouvfr/dsfr/dist/scheme/scheme.min.css'             // Facultatif : Si les thèmes sont utilisés (thème sombre, thème clair)",
+      "import '@gouvfr/dsfr/dist/utility/icons/icons.min.css'       // Facultatif : Si des icônes sont utilisées avec les classes \"fr-icon-...\"",
+    ],
+  }
+}

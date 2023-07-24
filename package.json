@@ -1,0 +1,46 @@
+{
+  "name": "vue-dsfr-snippets",
+  "displayName": "vue-dsfr-snippets",
+  "description": "Snippets for VueDsfr",
+  "version": "1.0.0",
+  "author": {
+    "name": "Stanislas Ormières",
+    "email": "stan@stormier.ninja"
+  },
+  "publisher": "stormier",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/laruiss/vue-dsfr-snippets"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/laruiss/vue-dsfr-snippets#readme",
+  "icon": "images/vue-dsfr-snippets.png",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "Vue",
+    "DSFR",
+    "VueDsfr",
+    "snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/vue-dsfr.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/vue-dsfr-script.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/vue-dsfr-script.code-snippets"
+      }
+    ]
+  }
+}
