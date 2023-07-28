@@ -42,17 +42,30 @@
     ],
     "description": "Crée un DsfrAlert"
   },
-  "DsfrBadge": {
+  "DsfrBadge simple": {
     "scope": "html",
     "prefix": "DsfrBadge",
     "body": [
         "<DsfrBadge",
         "  :label=\"${1}\"",
-        "  :type=\"${2:success}\"",
+        "  :type=\"${2|'success','error','new','info','warning'|}\"",
         "/>",
     ],
     "description": "Crée un DsfrBadge simple"
   },
+  "DsfrBadge complet": {
+    "scope": "html",
+    "prefix": "DsfrBadge",
+    "body": [
+        "<DsfrBadge",
+        "  :label=\"${1}\"",
+        "  :type=\"${2|'success','error','new','info','warning'|}\"",
+        "  ${3:no-icon}",
+        "  ${4:small}",
+        "  ${6:ellipsis}",
+        "/>",
+    ],
+    "description": "Crée un DsfrBadge complet"
   },
   "DsfrBreadcrumb": {
     "scope": "html",
