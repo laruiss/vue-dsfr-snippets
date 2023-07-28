@@ -10,7 +10,7 @@
         "  $3",
         "</DsfrAccordion>",
     ],
-    "description": "Create DsfrAccordion boilerplate"
+    "description": "Crée un DsfrAccordion"
   },
   "DsfrAccordionsGroup": {
     "prefix": "DsfrAccordionsGroup",
@@ -25,7 +25,7 @@
         "  </li>",
         "</DsfrAccordionsGroup>",
     ],
-    "description": "Create DsfrAccordionsGroup boilerplate"
+    "description": "Crée un DsfrAccordionsGroup"
   },
   "DsfrAlert": {
     "scope": "html",
@@ -40,7 +40,7 @@
         "  @close=\"${6:closeAlert()}\"",
         "/>",
     ],
-    "description": "Create DsfrAlert boilerplate"
+    "description": "Crée un DsfrAlert"
   },
   "DsfrBadge": {
     "scope": "html",
@@ -51,7 +51,8 @@
         "  :type=\"${2:success}\"",
         "/>",
     ],
-    "description": "Create DsfrBadge boilerplate"
+    "description": "Crée un DsfrBadge simple"
+  },
   },
   "DsfrBreadcrumb": {
     "scope": "html",
@@ -61,7 +62,7 @@
         "  :links=\"${1:links}\"",
         "/>",
     ],
-    "description": "Create DsfrBreadcrumb boilerplate"
+    "description": "Crée un DsfrBreadcrumb"
   },
   "DsfrButton": {
     "scope": "html",
@@ -74,7 +75,7 @@
       "  @click=\"${4:onClick()}\"",
       "/>",
     ],
-    "description": "Create DsfrButton boilerplate"
+    "description": "Crée un DsfrButton sans bordure"
   },
   "DsfrButtonGroup": {
     "scope": "html",
@@ -87,7 +88,7 @@
       "  @click=\"${4:onClick()}\"",
       "/>",
     ],
-    "description": "Create DsfrButtonGroup boilerplate"
+    "description": "Crée un DsfrButtonGroup"
   },
   "DsfrCallout": {
     "scope": "html",
@@ -100,7 +101,7 @@
       "  :icon=\"${4:icon}\"",
       "/>",
     ],
-    "description": "Create DsfrCallout boilerplate"
+    "description": "Crée un DsfrCallout"
   },
   "DsfrCard": {
     "scope": "html",
@@ -115,7 +116,7 @@
       "  :img-src=\"${6:imgSrc}\"",
       "/>",
     ],
-    "description": "Create DsfrCard boilerplate"
+    "description": "Crée un DsfrCard"
   },
   "DsfrCheckbox": {
     "scope": "html",
@@ -129,7 +130,7 @@
       "  @update:model-value=\"${5:updateChecked}(\\$event)\"",
       "/>",
     ],
-    "description": "Create DsfrCheckbox boilerplate"
+    "description": "Crée un DsfrCheckbox"
   },
   "DsfrCheckboxSet": {
     "scope": "html",
@@ -141,7 +142,7 @@
       "  :options=\"${3:options}\"",
       "/>",
     ],
-    "description": "Create DsfrCheckboxSet boilerplate"
+    "description": "Crée un DsfrCheckboxSet"
   },
   "DsfrConsent": {
     "scope": "html",
@@ -154,7 +155,7 @@
       "  @customize=\"${3:onCustomize()}\"",
       "/>",
     ],
-    "description": "Create DsfrConsent boilerplate"
+    "description": "Crée un DsfrConsent"
   },
   "DsfrFieldset": {
     "scope": "html",
@@ -168,7 +169,7 @@
       "  :legend-id=\"${5:legendId}\"",
       "/>",
     ],
-    "description": "Create DsfrFieldset boilerplate"
+    "description": "Crée un DsfrFieldset"
   },
   "DsfrFileDownload": {
     "scope": "html",
@@ -184,7 +185,7 @@
       "  :title=\"${7:title}\"",
       "/>",
     ],
-    "description": "Create DsfrFileUpload boilerplate"
+    "description": "Crée un DsfrFileUpload"
   },
   "DsfrFileUpload": {
     "scope": "html",
@@ -195,7 +196,7 @@
       "  :hint=\"${2:hint}\"",
       "/>",
     ],
-    "description": "Create DsfrFileUpload boilerplate"
+    "description": "Crée un DsfrFileUpload"
   },
   "DsfrFollow": {
     "scope": "html",
@@ -206,7 +207,7 @@
       "  :newsletter-data=\"${2:newsletterData}\"",
       "/>",
     ],
-    "description": "Create DsfrFollow boilerplate"
+    "description": "Crée un DsfrFollow"
   },
   "DsfrFooter": {
     "scope": "html",
@@ -225,7 +226,7 @@
       "  :ecosystem-links=\"${10:ecosystemLinks}\"",
       "/>",
     ],
-    "description": "Create DsfrFooter boilerplate"
+    "description": "Crée un DsfrFooter"
   },
   "DsfrFranceConnect": {
     "scope": "html",
@@ -233,7 +234,7 @@
     "body": [
       "<DsfrFranceConnect ${1:secure} />",
     ],
-    "description": "Create DsfrFranceConnect boilerplate"
+    "description": "Crée un DsfrFranceConnect"
   },
   "DsfrHeader": {
     "scope": "html",
@@ -247,7 +248,7 @@
       "  ${5:show-search}",
       "/>",
     ],
-    "description": "Create DsfrHeader boilerplate"
+    "description": "Crée un DsfrHeader"
   },
   "DsfrHighlight": {
     "scope": "html",
@@ -257,7 +258,7 @@
       "  :text=\"${1:text}\"",
       "/>",
     ],
-    "description": "Create DsfrHighlight boilerplate"
+    "description": "Crée un DsfrHighlight"
   },
   "DsfrInput": {
     "scope": "html",
@@ -271,7 +272,7 @@
       "  :placeholder=\"${5:inputPlaceholder}\"",
       "/>",
     ],
-    "description": "Create DsfrInput boilerplate"
+    "description": "Crée un DsfrInput"
   },
   "DsfrInputGroup": {
     "scope": "html",
@@ -288,7 +289,7 @@
       "  :errorMessage=\"${8:errorMessage}\"",
       "/>",
     ],
-    "description": "Create DsfrInputGroup boilerplate"
+    "description": "Crée un DsfrInputGroup"
   },
   "DsfrLanguageSelector": {
     "scope": "html",
@@ -300,7 +301,7 @@
       "  @select=\"${3:currentLanguage} = \\$event.codeIso\"",
       "/>",
     ],
-    "description": "Create DsfrLanguageSelector boilerplate"
+    "description": "Crée un DsfrLanguageSelector"
   },
   "DsfrLogo": {
     "scope": "html",
@@ -310,7 +311,7 @@
       "  logo-text=\"$1\"",
       "/>",
     ],
-    "description": "Create DsfrLogo boilerplate"
+    "description": "Crée un DsfrLogo"
   },
   "DsfrNotice": {
     "scope": "html",
@@ -323,7 +324,7 @@
         "@close=\"${4:close}()\"",
       "/>",
     ],
-    "description": "Create DsfrNotice boilerplate"
+    "description": "Crée un DsfrNotice"
   },
   "DsfrNewsLetter": {
     "scope": "html",
@@ -340,7 +341,7 @@
       "  :buttonText=\"${8:buttonText}\"",
       "/>",
     ],
-    "description": "Create DsfrNewsLetter boilerplate"
+    "description": "Crée un DsfrNewsLetter"
   },
   "DsfrSocialNetworks": {
     "scope": "html",
@@ -350,7 +351,7 @@
       "  :networks=\"${1:networks}\"",
       "/>",
     ],
-    "description": "Create DsfrSocialNetworks boilerplate"
+    "description": "Crée un DsfrSocialNetworks"
   },
   "DsfrPicture": {
     "scope": "html",
@@ -363,7 +364,7 @@
       "  :legend=\"${4:legend}\"",
       "/>",
     ],
-    "description": "Create DsfrPicture boilerplate"
+    "description": "Crée un DsfrPicture"
   },
   "DsfrVideo": {
     "scope": "html",
@@ -374,7 +375,7 @@
       "  :legend=\"${2:legend}\"",
       "/>",
     ],
-    "description": "Create DsfrVideo boilerplate"
+    "description": "Crée un DsfrVideo"
   },
   "DsfrModal": {
     "scope": "html",
@@ -393,7 +394,7 @@
       "  $5",
       "</DsfrModal>",
     ],
-    "description": "Create DsfrModal boilerplate"
+    "description": "Crée un DsfrModal"
   },
   "DsfrNavigation": {
     "scope": "html",
@@ -403,7 +404,7 @@
       "  :nav-items=\"${1:navItems}\"",
       "/>",
     ],
-    "description": "Create DsfrNavigation boilerplate"
+    "description": "Crée un DsfrNavigation"
   },
   "DsfrNavigationItem": {
     "scope": "html",
@@ -413,7 +414,7 @@
       "  $2",
       "</DsfrNavigationItem>",
     ],
-    "description": "Create DsfrNavigationItem boilerplate"
+    "description": "Crée un DsfrNavigationItem"
   },
   "DsfrNavigationMegaMenu": {
     "scope": "html",
@@ -430,7 +431,7 @@
       "  $7",
       "</DsfrNavigationMegaMenu>",
     ],
-    "description": "Create DsfrNavigationMegaMenu boilerplate"
+    "description": "Crée un DsfrNavigationMegaMenu"
   },
   "DsfrNavigationMegaMenuCategory": {
     "scope": "html",
@@ -441,7 +442,7 @@
       "  :links=\"${2:links}\"",
       "/>",
     ],
-    "description": "Create DsfrNavigationMegaMenuCategory boilerplate"
+    "description": "Crée un DsfrNavigationMegaMenuCategory"
   },
   "DsfrNavigationMenu": {
     "scope": "html",
@@ -454,7 +455,7 @@
       "  :@click=\"${4:toggle(\\$event)}\"",
       "/>",
     ],
-    "description": "Create DsfrNavigationMenu boilerplate"
+    "description": "Crée un DsfrNavigationMenu"
   },
   "DsfrNavigationMenuItem": {
     "scope": "html",
@@ -465,7 +466,7 @@
       ">",
       "</DsfrNavigationMenuItem>",
     ],
-    "description": "Create DsfrNavigationMenuItem boilerplate"
+    "description": "Crée un DsfrNavigationMenuItem"
   },
   "DsfrNavigationMenuLink": {
     "scope": "html",
@@ -476,7 +477,7 @@
       "  :text=\"${2:text}\"",
       "/>",
     ],
-    "description": "Create DsfrNavigationMenuLink boilerplate"
+    "description": "Crée un DsfrNavigationMenuLink"
   },
   "DsfrPagination": {
     "scope": "html",
@@ -487,7 +488,7 @@
       "  v-model:current-page=\"${2:currentPage}\"",
       "/>",
     ],
-    "description": "Create DsfrPagination boilerplate"
+    "description": "Crée un DsfrPagination"
   },
   "DsfrQuote": {
     "scope": "html",
@@ -503,7 +504,7 @@
       "  :quoteImage=\"${7:quoteImage}\"",
       "/>",
     ],
-    "description": "Create DsfrQuote boilerplate"
+    "description": "Crée un DsfrQuote"
   },
   "DsfrRadioButton": {
     "scope": "html",
@@ -518,7 +519,7 @@
       "  @update:model-value=\"${6:updateCheckedValue(\\$event)}\"",
       "/>",
     ],
-    "description": "Create DsfrRadioButton boilerplate"
+    "description": "Crée un DsfrRadioButton"
   },
   "DsfrRadioButtonSet": {
     "scope": "html",
@@ -532,7 +533,7 @@
       "  @update:model-value=\"${5:updateCheckedValue(\\$event)}\"",
       "/>",
     ],
-    "description": "Create DsfrRadioButtonSet boilerplate"
+    "description": "Crée un DsfrRadioButtonSet"
   },
   "DsfrSearchBar": {
     "scope": "html",
@@ -546,7 +547,7 @@
       "  :button-text=\"${5:buttonText}\"",
       "/>",
     ],
-    "description": "Create DsfrSearchBar boilerplate"
+    "description": "Crée un DsfrSearchBar"
   },
   "DsfrSelect": {
     "scope": "html",
@@ -558,7 +559,7 @@
       "  :options=\"${3:options}\"",
       "/>",
     ],
-    "description": "Create DsfrSelect boilerplate"
+    "description": "Crée un DsfrSelect"
   },
   "DsfrShare": {
     "scope": "html",
@@ -571,7 +572,7 @@
       "  :copy-label=\"${4:copyLabel}\"",
       "/>",
     ],
-    "description": "Create DsfrShare boilerplate"
+    "description": "Crée un DsfrShare"
   },
   "DsfrSideMenu": {
     "scope": "html",
@@ -584,7 +585,7 @@
       "  @toggle-expand=\"${4:toggleExpand(\\$event)}\"",
       "/>",
     ],
-    "description": "Create DsfrSideMenu boilerplate"
+    "description": "Crée un DsfrSideMenu"
   },
   "DsfrSideMenuButton": {
     "scope": "html",
@@ -597,7 +598,7 @@
       "  @toggle-expand=\"${4:toggleExpand(\\$event)}\"",
       "/>",
     ],
-    "description": "Create DsfrSideMenuButton boilerplate"
+    "description": "Crée un DsfrSideMenuButton"
   },
   "DsfrSideMenuLink": {
     "scope": "html",
@@ -608,7 +609,7 @@
       "  :to=\"${2:to}\"",
       "/>",
     ],
-    "description": "Create DsfrSideMenuLink boilerplate"
+    "description": "Crée un DsfrSideMenuLink"
   },
   "DsfrSideMenuList": {
     "scope": "html",
@@ -619,7 +620,7 @@
       "  @toggle-expand=\"${2:toggleExpand}\"",
       "/>",
     ],
-    "description": "Create DsfrSideMenuList boilerplate"
+    "description": "Crée un DsfrSideMenuList"
   },
   "DsfrSideMenuListItem": {
     "scope": "html",
@@ -631,7 +632,7 @@
       "  $2",
       "</DsfrSideMenuListItem>",
     ],
-    "description": "Create DsfrSideMenuListItem boilerplate"
+    "description": "Crée un DsfrSideMenuListItem"
   },
   "DsfrSkipLinks": {
     "scope": "html",
@@ -641,7 +642,7 @@
       "  :links=\"${1:links}\"",
       "/>",
     ],
-    "description": "Create DsfrSkipLinks boilerplate"
+    "description": "Crée un DsfrSkipLinks"
   },
   "DsfrStepper": {
     "scope": "html",
@@ -652,7 +653,7 @@
       "  :currentStep=\"${2:currentStep}\"",
       "/>",
     ],
-    "description": "Create DsfrStepper boilerplate"
+    "description": "Crée un DsfrStepper"
   },
   "DsfrSummary": {
     "scope": "html",
@@ -664,7 +665,7 @@
       "  :anchors=\"${3:anchors}\"",
       "/>",
     ],
-    "description": "Create DsfrSummary boilerplate"
+    "description": "Crée un DsfrSummary"
   },
   "DsfrTable": {
     "scope": "html",
@@ -676,7 +677,7 @@
       "  :rows=\"${3:rows}\"",
       "/>",
     ],
-    "description": "Create DsfrTable boilerplate"
+    "description": "Crée un DsfrTable"
   },
   "DsfrTableCell": {
     "scope": "html",
@@ -686,7 +687,7 @@
       "  :field=\"${1:field}\"",
       "/>",
     ],
-    "description": "Create DsfrTableCell boilerplate"
+    "description": "Crée un DsfrTableCell"
   },
   "DsfrTableHeader": {
     "scope": "html",
@@ -697,7 +698,7 @@
       "  :header-attrs=\"${2:headerAttrs}\"",
       "/>",
     ],
-    "description": "Create DsfrTableHeader boilerplate"
+    "description": "Crée un DsfrTableHeader"
   },
   "DsfrTableHeaders": {
     "scope": "html",
@@ -707,7 +708,7 @@
       "  :headers=\"${1:headers}\"",
       "/>",
     ],
-    "description": "Create DsfrTableHeaders boilerplate"
+    "description": "Crée un DsfrTableHeaders"
   },
   "DsfrTableRow": {
     "scope": "html",
@@ -717,7 +718,7 @@
       "  :row-data=\"${1:rowData}\"",
       "/>",
     ],
-    "description": "Create DsfrTableRow boilerplate"
+    "description": "Crée un DsfrTableRow"
   },
   "DsfrTabContent": {
     "scope": "html",
@@ -732,7 +733,7 @@
       "  $5",
       "</DsfrTabContent>",
     ],
-    "description": "Create DsfrTabContent boilerplate"
+    "description": "Crée un DsfrTabContent"
   },
   "DsfrTabItem": {
     "scope": "html",
@@ -747,7 +748,7 @@
       "  $5",
       "</DsfrTabItem>",
     ],
-    "description": "Create DsfrTabItem boilerplate"
+    "description": "Crée un DsfrTabItem"
   },
   "DsfrTabs": {
     "scope": "html",
@@ -759,7 +760,7 @@
       "  :tab-contents=\"${3:tabContents}\"",
       "/>",
     ],
-    "description": "Create DsfrTabs boilerplate"
+    "description": "Crée un DsfrTabs"
   },
   "DsfrTag": {
     "scope": "html",
@@ -769,7 +770,7 @@
       "  :label=\"${1:label}\"",
       "/>",
     ],
-    "description": "Create DsfrTag boilerplate"
+    "description": "Crée un DsfrTag avec toutes les options disponibles"
   },
   "DsfrTags": {
     "scope": "html",
@@ -779,7 +780,7 @@
       "  :tags=\"${1:tags}\"",
       "/>",
     ],
-    "description": "Create DsfrTags boilerplate"
+    "description": "Crée un DsfrTags"
   },
   "DsfrTile": {
     "scope": "html",
@@ -792,7 +793,7 @@
       "  :rows=\"${4:rows}\"",
       "/>",
     ],
-    "description": "Create DsfrTile boilerplate"
+    "description": "Crée un DsfrTile avec toutes les options"
   },
   "DsfrTiles": {
     "scope": "html",
@@ -800,7 +801,7 @@
     "body": [
       "<DsfrTiles :tiles=\"${1:tiles}\" />",
     ],
-    "description": "Create DsfrTiles boilerplate"
+    "description": "Crée un DsfrTiles"
   },
   "DsfrToggleSwitch": {
     "scope": "html",
@@ -812,7 +813,7 @@
       "  :hint=\"${3:hint}\"",
       "/>",
     ],
-    "description": "Create DsfrToggleSwitch boilerplate"
+    "description": "Crée un DsfrToggleSwitch"
   },
   "DsfrTranscription": {
     "scope": "html",
@@ -823,6 +824,6 @@
       "  :content=\"${2:content}\"",
       "/>",
     ],
-    "description": "Create DsfrTranscription boilerplate"
+    "description": "Crée un DsfrTranscription"
   },
 }
