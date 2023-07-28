@@ -836,6 +836,12 @@
     "body": [
       "<DsfrTag",
       "  :label=\"${1:label}\"",
+      "  :icon=\"icon\"",
+      "  :tag-name=\"tagName\"",
+      "  :icon-only=\"iconOnly\"",
+      "  :disabled=\"disabled\"",
+      "  :selected=\"selected\"",
+      "  :small=\"small\"",
       "/>",
     ],
     "description": "Crée un DsfrTag avec toutes les options disponibles"
