@@ -79,12 +79,70 @@
   },
   "DsfrButton": {
     "scope": "html",
-    "prefix": "DsfrButton",
+    "prefix": "DsfrButton (simple)",
     "body": [
       "<DsfrButton",
-      "  type=\"${1:buttonType}\"",
+      "  type=\"${1|button,submit,reset|}\"",
       "  :label=\"${2:buttonLabel}\"",
-      "  ${3:secondary}",
+      "  ${3|secondary,tertiary|}",
+      "  @click=\"${4:onClick()}\"",
+      "/>",
+    ],
+    "description": "Crée un DsfrButton"
+  },
+  "DsfrButton complet": {
+    "scope": "html",
+    "prefix": "DsfrButton (complet)",
+    "body": [
+      "<DsfrButton",
+      "  type=\"${1|button,submit,reset|}\"",
+      "  :label=\"${2:buttonLabel}\"",
+      "  :disabled=\"${3:buttonDisabled}\"",
+      "  :icon=\"${4:iconName}\"",
+      "  :iconRight=\"${4:buttonIconRight}\"",
+      "  :iconOnly=\"${5:buttonIconOnly}\"",
+      "  :no-outline=\"${6:noOutline}\"",
+      "  size=\"${7|sm,md,lg|}\"",
+      "  ${8|secondary,tertiary|}",
+      "  @click=\"${9:onClick()}\"",
+      "/>",
+    ],
+    "description": "Crée un DsfrButton avec toutes les options"
+  },
+  "DsfrButton avec icone": {
+    "scope": "html",
+    "prefix": "DsfrButton (avec icône)",
+    "body": [
+      "<DsfrButton",
+      "  type=\"${1|button,submit,reset|}\"",
+      "  :label=\"${2:buttonLabel}\"",
+      "  icon=\"${3:ri-save-line}\"",
+      "  @click=\"${4:onClick()}\"",
+      "/>",
+    ],
+    "description": "Crée un DsfrButton avec une icône"
+  },
+  "DsfrButton avec icône animée": {
+    "scope": "html",
+    "prefix": "DsfrButton (avec icône animée)",
+    "body": [
+      "<DsfrButton",
+      "  type=\"${1|button,submit,reset|}\"",
+      "  :label=\"${2:buttonLabel}\"",
+      "  :icon=\"{ name: \"${3:ri-refresh-line}\", animation: \"${4:spin}\" }\"",
+      "  @click=\"${5:onClick()}\"",
+      "/>",
+    ],
+    "description": "Crée un DsfrButton avec une icône animée"
+  },
+  "DsfrButton sans bordure": {
+    "scope": "html",
+    "prefix": "DsfrButton (sans bordure)",
+    "body": [
+      "<DsfrButton",
+      "  type=\"${1|button,submit,reset|}\"",
+      "  :label=\"${2:buttonLabel}\"",
+      "  no-outline",
       "  @click=\"${4:onClick()}\"",
       "/>",
     ],
@@ -96,9 +154,6 @@
     "body": [
       "<DsfrButtonGroup",
       "  :buttons=\"${1:buttons}\"",
-      "  :label=\"${2:buttonLabel}\"",
-      "  ${3:secondary}",
-      "  @click=\"${4:onClick()}\"",
       "/>",
     ],
     "description": "Crée un DsfrButtonGroup"
