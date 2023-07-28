@@ -225,6 +225,20 @@
     ],
     "description": "Crée un DsfrConsent"
   },
+  "DsfrErrorPage": {
+    "scope": "html",
+    "prefix": "DsfrErrorPage",
+    "body": [
+      "<DsfrErrorPage",
+        ":title=\"${1:title}\"",
+        ":subtitle=\"${2:subtitle}\"",
+        ":description=\"${3:description}\"",
+        ":help=\"${4:help}\"",
+        ":buttons=\"${4:buttons}\"",
+      "/>",
+    ],
+    "description": "Crée un DsfrErrorPage"
+  },
   "DsfrFieldset": {
     "scope": "html",
     "prefix": "DsfrFieldset",

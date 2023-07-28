@@ -2,9 +2,13 @@
 
 ## [Unreleased]
 
+## [1.2.0] - 2023-07-28
+
+- ajout du snippet pour le nouveau composant DsfrErrorPage
+
 ## [1.1.1] - 2023-07-28
 
-Met à jour le changelog
+- met à jour le changelog
 
 ## [1.1.0] - 2023-07-28
 
