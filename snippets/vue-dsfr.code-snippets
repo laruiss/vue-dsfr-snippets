@@ -457,7 +457,7 @@
       "<DsfrModal",
       "  :opened=\"${3:opened}\"",
       "  :title=\"${4:title}\"",
-      "  :origin=\"$refs.modalOrigin\"",
+      "  :origin=\"\\$refs.modalOrigin\"",
       ">",
       "  $5",
       "</DsfrModal>",
