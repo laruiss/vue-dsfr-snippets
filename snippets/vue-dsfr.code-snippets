@@ -863,8 +863,11 @@
       "<DsfrTile",
       "  :title=\"${1:title}\"",
       "  :description=\"${2:description}\"",
-      "  :to=\"${3:to}\"",
-      "  :rows=\"${4:rows}\"",
+      "  :img-src=\"${3:imgSrc}\"",
+      "  :disabled=\"${4:disabled}\"",
+      "  :to=\"${5:to}\"",
+      "  :rows=\"${6:rows}\"",
+      "  :title-tag=\"${7|h1,h2,h3,h4,h5,h6|}\"",
       "/>",
     ],
     "description": "Crée un DsfrTile avec toutes les options"
