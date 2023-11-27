@@ -42,6 +42,17 @@
     ],
     "description": "Crée un DsfrAlert"
   },
+  "DsfrBackToTop": {
+    "scope": "html",
+    "prefix": "DsfrBackToTop",
+    "body": [
+      "<DsfrBackToTop",
+      "  :label=\"${1:label}\"",
+      "  :position=\"${2|'right','left'|}\"",
+      "/>",
+  ],
+  "description": "Crée un bouton pour revenir en haut de la page"
+},
   "DsfrBadge simple": {
     "scope": "html",
     "prefix": "DsfrBadge",
@@ -395,70 +406,6 @@
     ],
     "description": "Crée un DsfrLogo"
   },
-  "DsfrNotice": {
-    "scope": "html",
-    "prefix": "DsfrNotice",
-    "body": [
-      "<DsfrNotice",
-        "v-if=\"!${1:closed}\"",
-        ":title=\"${2:title}\"",
-        ":closeable=\"${3:closeable}\"",
-        "@close=\"${4:close}()\"",
-      "/>",
-    ],
-    "description": "Crée un DsfrNotice"
-  },
-  "DsfrNewsLetter": {
-    "scope": "html",
-    "prefix": "DsfrNewsLetter",
-    "body": [
-      "<DsfrNewsLetter",
-      "  v-model:email=\"${1:email}\"",
-      "  :title=\"${2:title}\"",
-      "  :description=\"${3:description}\"",
-      "  :labelEmail=\"${4:labelEmail}\"",
-      "  :inputTitle=\"${5:inputTitle}\"",
-      "  :placeholder=\"${6:placeholder}\"",
-      "  :hintText=\"${7:hintText}\"",
-      "  :buttonText=\"${8:buttonText}\"",
-      "/>",
-    ],
-    "description": "Crée un DsfrNewsLetter"
-  },
-  "DsfrSocialNetworks": {
-    "scope": "html",
-    "prefix": "DsfrSocialNetworks",
-    "body": [
-      "<DsfrSocialNetworks",
-      "  :networks=\"${1:networks}\"",
-      "/>",
-    ],
-    "description": "Crée un DsfrSocialNetworks"
-  },
-  "DsfrPicture": {
-    "scope": "html",
-    "prefix": "DsfrPicture",
-    "body": [
-      "<DsfrPicture",
-      "  :src=\"${1:src}\"",
-      "  :alt=\"${2:alt}\"",
-      "  :title=\"${3:title}\"",
-      "  :legend=\"${4:legend}\"",
-      "/>",
-    ],
-    "description": "Crée un DsfrPicture"
-  },
-  "DsfrVideo": {
-    "scope": "html",
-    "prefix": "DsfrVideo",
-    "body": [
-      "<DsfrVideo",
-      "  :src=\"${1:src}\"",
-      "  :legend=\"${2:legend}\"",
-      "/>",
-    ],
-    "description": "Crée un DsfrVideo"
-  },
   "DsfrModal": {
     "scope": "html",
     "prefix": "DsfrModal",
@@ -560,6 +507,70 @@
       "/>",
     ],
     "description": "Crée un DsfrNavigationMenuLink"
+  },
+  "DsfrNotice": {
+    "scope": "html",
+    "prefix": "DsfrNotice",
+    "body": [
+      "<DsfrNotice",
+        "v-if=\"!${1:closed}\"",
+        ":title=\"${2:title}\"",
+        ":closeable=\"${3:closeable}\"",
+        "@close=\"${4:close}()\"",
+      "/>",
+    ],
+    "description": "Crée un DsfrNotice"
+  },
+  "DsfrNewsLetter": {
+    "scope": "html",
+    "prefix": "DsfrNewsLetter",
+    "body": [
+      "<DsfrNewsLetter",
+      "  v-model:email=\"${1:email}\"",
+      "  :title=\"${2:title}\"",
+      "  :description=\"${3:description}\"",
+      "  :labelEmail=\"${4:labelEmail}\"",
+      "  :inputTitle=\"${5:inputTitle}\"",
+      "  :placeholder=\"${6:placeholder}\"",
+      "  :hintText=\"${7:hintText}\"",
+      "  :buttonText=\"${8:buttonText}\"",
+      "/>",
+    ],
+    "description": "Crée un DsfrNewsLetter"
+  },
+  "DsfrSocialNetworks": {
+    "scope": "html",
+    "prefix": "DsfrSocialNetworks",
+    "body": [
+      "<DsfrSocialNetworks",
+      "  :networks=\"${1:networks}\"",
+      "/>",
+    ],
+    "description": "Crée un DsfrSocialNetworks"
+  },
+  "DsfrPicture": {
+    "scope": "html",
+    "prefix": "DsfrPicture",
+    "body": [
+      "<DsfrPicture",
+      "  :src=\"${1:src}\"",
+      "  :alt=\"${2:alt}\"",
+      "  :title=\"${3:title}\"",
+      "  :legend=\"${4:legend}\"",
+      "/>",
+    ],
+    "description": "Crée un DsfrPicture"
+  },
+  "DsfrVideo": {
+    "scope": "html",
+    "prefix": "DsfrVideo",
+    "body": [
+      "<DsfrVideo",
+      "  :src=\"${1:src}\"",
+      "  :legend=\"${2:legend}\"",
+      "/>",
+    ],
+    "description": "Crée un DsfrVideo"
   },
   "DsfrPagination": {
     "scope": "html",

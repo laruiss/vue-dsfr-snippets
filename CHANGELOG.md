@@ -2,12 +2,10 @@
 
 ## [Unreleased]
 
-## [1.2.1] - 2023-07-28
+## [1.2.0] - 2023-11-27
 
+- ajout du snippet pour le nouveau composant DsfrBackToTop
 - correction des placeholders du composant DsfrTags
-
-## [1.2.0] - 2023-07-28
-
 - ajout du snippet pour le nouveau composant DsfrErrorPage
 
 ## [1.1.1] - 2023-07-28
