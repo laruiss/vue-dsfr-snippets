@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [1.2.1] - 2023-07-28
+
+- correction des placeholders du composant DsfrTags
+
 ## [1.2.0] - 2023-07-28
 
 - ajout du snippet pour le nouveau composant DsfrErrorPage

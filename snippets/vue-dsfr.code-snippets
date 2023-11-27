@@ -47,7 +47,7 @@
     "prefix": "DsfrBadge",
     "body": [
         "<DsfrBadge",
-        "  :label=\"${1}\"",
+        "  :label=\"${1:label}\"",
         "  :type=\"${2|'success','error','new','info','warning'|}\"",
         "/>",
     ],
@@ -58,7 +58,7 @@
     "prefix": "DsfrBadge",
     "body": [
         "<DsfrBadge",
-        "  :label=\"${1}\"",
+        "  :label=\"${1:label}\"",
         "  :type=\"${2|'success','error','new','info','warning'|}\"",
         "  ${3:no-icon}",
         "  ${4:small}",
@@ -850,12 +850,12 @@
     "body": [
       "<DsfrTag",
       "  :label=\"${1:label}\"",
-      "  :icon=\"icon\"",
-      "  :tag-name=\"tagName\"",
-      "  :icon-only=\"iconOnly\"",
-      "  :disabled=\"disabled\"",
-      "  :selected=\"selected\"",
-      "  :small=\"small\"",
+      "  :icon=\"${2:icon}\"",
+      "  :tag-name=\"${3:tagName}\"",
+      "  :icon-only=\"${4:iconOnly}\"",
+      "  :disabled=\"${5:disabled}\"",
+      "  :selected=\"${6:selected}\"",
+      "  :small=\"${7:small}\"",
       "/>",
     ],
     "description": "Crée un DsfrTag avec toutes les options disponibles"
